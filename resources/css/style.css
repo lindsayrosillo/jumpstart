@@ -1,0 +1,26 @@
+/**Gen Styles**/
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/**end gen styles**/
+
+/** start jumbotron section**/
+.jumbotron {
+  background-image: url("../images/jumbotron-bike.jpg");
+  height: 44rem;
+  background-size: cover;
+  background-position: center;
+  text-shadow: -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  color: white;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+}
