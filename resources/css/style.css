@@ -8,7 +8,6 @@ html {
 
 /** start jumbotron section**/
 .jumbotron {
-  background-image: url("../images/jumbotron-bike.jpg");
   height: 44rem;
   background-size: cover;
   background-position: center;
@@ -23,4 +22,25 @@ html {
 .jumbotron h1 {
   font-family: "Monoton";
   font-size: 7.1rem;
+}
+
+.jumbotron-bike {
+  background-image: url("../images/jumbotron-bike.jpg");
+}
+
+.background-beer {
+  background-image: url("../images/jumbotron-beer.jpg");
+}
+
+.background-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+}
+
+.background-duffel {
+  background-image: url("../images/jumbotron-duffel.jpg");
+}
+/**project section**/
+
+.projects img {
+  height: 15rem;
 }
