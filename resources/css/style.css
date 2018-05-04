@@ -4,8 +4,26 @@ html {
   font-family: "Open Sans", sans-serif;
 }
 
-/**end gen styles**/
+h2 {
+ color: #399bd1;
+ font-weight: 600;
+}
 
+img {
+  width: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: inherit;
+  color: #399bd1;
+}
+/**end gen styles**/
+/** nav**/
+.navbar {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
 /** start jumbotron section**/
 .jumbotron {
   height: 44rem;
@@ -17,6 +35,7 @@ html {
   1px 1px 0 #000;
   color: white;
   text-align: center;
+  padding-top: 10rem;
 }
 
 .jumbotron h1 {
@@ -39,8 +58,71 @@ html {
 .background-duffel {
   background-image: url("../images/jumbotron-duffel.jpg");
 }
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+.btn-primary {
+  width: 12rem;
+  padding: 1.3rem 0;
+}
+
+.btn-primary:hover {
+  box-shadow: -webkit-box-shadow: 5px 9px 13px -3px rgba(0,0,0,0.61);
+  -moz-box-shadow: 5px 9px 13px -3px rgba(0,0,0,0.61);
+  box-shadow: 5px 9px 13px -3px rgba(0,0,0,0.61);
+  transition: all .5s ease-in-out;
+  transform: scale(1.1);
+}
 /**project section**/
 
-.projects img {
-  height: 15rem;
+.project img {
+  width: 100%;
+}
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s,
+              opacity .5s;
+  transition: transform .5s,
+              opacity .5s;
+}
+
+.project img:hover {
+  opacity: 1;
+  -webkit-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
+.categories h3 {
+  color: #399bd1;
+  font-weight: 600;
+}
+
+.projects {
+  padding-bottom: 6rem;
+}
+
+/** help section**/
+.help {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.help p {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 3rem;
 }
