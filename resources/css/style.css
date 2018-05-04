@@ -115,8 +115,7 @@ img {
 .help {
   background-color: #f3f3f3;
   text-align: center;
-  padding-top: 10rem;
-  padding-bottom: 1.4rem;
+  padding-top: 6rem;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -124,5 +123,5 @@ img {
 .help p {
   font-size: 1rem;
   font-weight: 400;
-  padding-bottom: 3rem;
+  padding: 1.4rem 0;
 }
